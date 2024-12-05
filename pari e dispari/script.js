@@ -31,7 +31,7 @@ function isEven(num) {
 //PROGRAMMA PRINCIPALE
 const userEvenOrOdd = prompt("inserisci pari o dispari");
 const userNumber = Number(prompt("Inserisci un numero da 1 a 5"));
-const cpuNumber = Math.floor(Math.random() * 5) + 1;
+const cpuNumber = getRndInteger(1, 5);
 const sum = userNumber + cpuNumber;
 
 // console.log(`La cpu a scelto: ${cpuNumber}`)
